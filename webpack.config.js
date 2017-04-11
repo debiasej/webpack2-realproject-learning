@@ -38,6 +38,10 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: 'index.html'
+    }),
+    // Define global window scope variables that are defined inside the bundle.js file
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
     })
   ]
 };
