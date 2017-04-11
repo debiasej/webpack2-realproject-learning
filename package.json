@@ -9,7 +9,7 @@
     "serve": "webpack-dev-server"
   },
   "repository": "",
-  "author": "",
+  "author": "Mario de Biase",
   "license": "ISC",
   "dependencies": {
     "faker": "^3.1.0",
